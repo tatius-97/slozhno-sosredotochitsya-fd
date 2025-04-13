@@ -196,7 +196,7 @@
 }
 
 .gallery {
-  min-block-size: 100%;
+  min-block-size: 1400px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
@@ -316,6 +316,7 @@
   }
 
   .gallery {
+    min-block-size: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     margin-inline: 20px;
     gap: 20px;
