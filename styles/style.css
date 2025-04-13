@@ -206,6 +206,7 @@
 .gallery__item {
   margin: 0;
   display: flex;
+  block-size: 100%;
 }
 
 .gallery__image {
