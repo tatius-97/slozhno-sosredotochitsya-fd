@@ -209,6 +209,7 @@
 
 .gallery__image {
   inline-size: 100%;
+  block-size: 100%;
   object-fit: cover;
 }
 
@@ -323,10 +324,6 @@
     grid-column: 1 / span 3;
     grid-row-start: 1;
     grid-row-end: auto;
-  }
-
-  .gallery__image {
-    block-size: 100%;
   }
 
   .gallery__item:first-of-type {
